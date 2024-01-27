@@ -77,8 +77,8 @@ def download_zillow_images(url, append_date, jpg_flag):
 if __name__ == "__main__":
     parser = argparse.ArgumentParser(description='Download Zillow listing images.')
     parser.add_argument('url', help='Zillow listing URL')
-    parser.add_argument('-d', '--date', action='store_true', help='Append the current date to the directory name')
-    parser.add_argument('-j', '--jpg', action='store_true', help='Download images in JPG format instead of WEBP')
+    parser.add_argument('-d', '-date', '--date', action='store_true', help='Append the current date to the directory name')
+    parser.add_argument('-j', '-jpg', '--jpg', action='store_true', help='Download images in JPG format instead of WEBP')
     args = parser.parse_args()
 
     download_zillow_images(args.url, args.date, args.jpg)
