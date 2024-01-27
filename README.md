@@ -44,7 +44,7 @@ python ZillowPhotosDownloader.py -d [Zillow URL]
 ```
 
 
-Futhermore, if you needed the images in the JPG format, you can add '-j', '-jpg' or '--jpg' to do so. I personally would stick with webp because it has noticeably better compression in terms of quality. Example to download JPG only:
+Futhermore, if you needed the images in the JPG format, you can add '-j', '-jpg' or '--jpg' to do so. I personally would stick with webp because it has noticeably better compression in terms of quality. The script downloads webp by default. Example to download JPG only:
 ```
 python ZillowPhotosDownloader.py -j [Zillow URL]
 ```
