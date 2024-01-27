@@ -1,5 +1,5 @@
 # ZillowPhotosDownloader
-This is a script to bulk download photos from a Zillow home listing.
+This is a script to bulk download photos from a Zillow home listing. No API required.
 <br>
 
 The script will download the highest resolution photos (in WebP or JPG) and place them in a folder named the Zillow listing's home address. 
