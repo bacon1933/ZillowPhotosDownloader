@@ -2,7 +2,7 @@
 This is a script to bulk download photos from a Zillow home listing.
 <br>
 
-The script will download the highest resolution photos (in .webp) and place them in a folder named the Zillow listing's home address. 
+The script will download the highest resolution photos (in WebP or JPG) and place them in a folder named the Zillow listing's home address. 
 <br>
 
 It will also bypass Zillow's anti-bot measures that would normally result in 403 responses.
@@ -44,7 +44,7 @@ python ZillowPhotosDownloader.py -d [Zillow URL]
 ```
 
 
-Futhermore, if you needed the images in the JPG format, you can add '-j', '-jpg' or '--jpg' to do so. I personally would stick with webp because it has noticeably better compression in terms of quality. The script downloads webp by default. Example to download JPG only:
+Futhermore, if you needed the images in the JPG format, you can add '-j', '-jpg' or '--jpg' to do so. I personally would stick with WebP because it has noticeably better compression in terms of quality. The script downloads WebP by default. Example to download JPG only:
 ```
 python ZillowPhotosDownloader.py -j [Zillow URL]
 ```
